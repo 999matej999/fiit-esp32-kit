@@ -443,7 +443,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Findemm:AHT20"
+		(symbol "FIIT_Kit:AHT20"
 			(pin_names
 				(offset 1.016)
 			)
@@ -468,7 +468,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Findemm:AHT20"
+			(property "Footprint" "FIIT_Kit:AHT20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4154,6 +4154,106 @@
 		)
 	)
 	(symbol
+		(lib_id "FIIT_Kit:AHT20")
+		(at 101.6 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c05ac2dc-813b-4c89-bad3-5ec825dce561")
+		(property "Reference" "U4"
+			(at 93.726 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AHT20"
+			(at 93.726 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FIIT_Kit:AHT20"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://files.seeedstudio.com/wiki/Grove-AHT20_I2C_Industrial_Grade_Temperature_and_Humidity_Sensor/AHT20-datasheet-2020-4-16.pdf"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2757850"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AHT20"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "29ae58a2-d830-4371-8af0-511f21324fcd")
+		)
+		(pin "3"
+			(uuid "8062f0eb-2c79-495c-85b3-9044cc747d43")
+		)
+		(pin "1"
+			(uuid "60900ccd-972d-4bd1-b188-2656789822e0")
+		)
+		(pin "2"
+			(uuid "7d3ceed4-0ab6-424b-9b08-e9451f02190d")
+		)
+		(pin "5"
+			(uuid "823674e1-91f7-42e5-a539-055fdb9d4bb1")
+		)
+		(pin "6"
+			(uuid "a406d940-8101-4a71-bed4-29416d4bb84f")
+		)
+		(instances
+			(project ""
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Optical:SFH320")
 		(at 226.06 60.96 0)
 		(unit 1)
@@ -4584,106 +4684,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Findemm:AHT20")
-		(at 101.6 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff50237a-b5c2-4dc8-a6ef-82aba3dfb163")
-		(property "Reference" "U4"
-			(at 93.472 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AHT20"
-			(at 93.472 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Findemm:AHT20"
-			(at 101.6 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://files.seeedstudio.com/wiki/Grove-AHT20_I2C_Industrial_Grade_Temperature_and_Humidity_Sensor/AHT20-datasheet-2020-4-16.pdf"
-			(at 101.6 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2757850"
-			(at 101.6 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AHT20"
-			(at 101.6 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a87632c7-a015-4c99-b307-551d0cc04d40")
-		)
-		(pin "3"
-			(uuid "4c2e92e9-74a0-41d3-ae12-431d8bff0c16")
-		)
-		(pin "4"
-			(uuid "782f497f-3354-4da6-8dcf-6e948e3848ea")
-		)
-		(pin "5"
-			(uuid "3480b2a6-9dc1-4cd4-978b-b550153f6d00")
-		)
-		(pin "1"
-			(uuid "db4caf2b-1770-4536-9a80-a13a17787e3b")
-		)
-		(pin "6"
-			(uuid "7f544c05-a9d8-495a-bca6-319923e63980")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "U4")
 					(unit 1)
 				)
 			)

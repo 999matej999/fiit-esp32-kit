@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Findemm:AHT_QFN"
+		(property "Footprint" "FIIT_Kit:AHT_QFN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Findemm:AHT20"
+		(property "Footprint" "FIIT_Kit:AHT20"
 			(at 0 0 0)
 			(effects
 				(font

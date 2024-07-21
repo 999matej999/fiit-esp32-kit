@@ -341,7 +341,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -353,7 +353,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -389,7 +389,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -401,7 +401,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -5156,7 +5156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081ae18b-37f3-4c6b-83e2-bcadb66ac9dc")
-		(property "Reference" "JP4"
+		(property "Reference" "JP5"
 			(at 100.33 121.92 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 100.33 128.27 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "JP4")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -5289,7 +5289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09a6dd81-9b8e-4f38-ade3-daf8e41fca91")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -5305,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 100.33 58.42 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 		(instances
 			(project ""
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
