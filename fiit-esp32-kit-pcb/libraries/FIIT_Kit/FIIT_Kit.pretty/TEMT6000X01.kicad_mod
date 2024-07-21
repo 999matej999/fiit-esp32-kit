@@ -1,0 +1,169 @@
+(footprint "TEMT6000X01"
+	(version 20240706)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(descr "TEMT6000X01")
+	(tags "Phototransistor")
+	(property "Reference" "REF**"
+		(at -0.346 -0.054 0)
+		(layer "F.SilkS")
+		(uuid "dcdf79df-5fbd-4ed6-997d-81ac54958e1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEMT6000X01"
+		(at -0.346 -0.054 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cff80ec-4835-4118-be92-ea7d5ad7fdb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ef557af-3f58-40b7-8611-1d70133a7c18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "068b0454-f504-4f2e-bfa4-df5e1e4e1b60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f83c11c6-639d-486e-b3a3-15a572488167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2 -1)
+		(end -0.9 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16b58f43-99fb-42ec-9bd9-cfce9406843b")
+	)
+	(fp_line
+		(start 2 1)
+		(end -0.9 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39a733e3-90a6-4d00-9bc9-92c1c46d1274")
+	)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a50e8a2-5ca5-4727-ae81-f23c86fe1cc2")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de9d578e-ef33-4edc-9d76-9160768394ff")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bcdf84e-ec9a-4ef8-b625-ec2eb6eb2337")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "432c50bb-d106-4193-acc7-cc4ecfe8ee31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.346 -0.054 0)
+		(layer "F.Fab")
+		(uuid "91c6c85a-cc8a-40bb-bdb3-eeb1ef7410bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.775 0 90)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54170991-f7f1-4923-9776-b3bc7f0a7189")
+	)
+	(pad "2" smd rect
+		(at -1.775 -0.55 90)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c3045df-5774-4686-aff5-3b2dac91608d")
+	)
+	(pad "3" smd rect
+		(at -1.775 0.55 90)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94e45603-b7cb-46e6-8398-afa79e50c907")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/FIIT_Kit/3D_models/Phototransistor_TEMT6000X01.stp"
+		(offset
+			(xyz -2 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

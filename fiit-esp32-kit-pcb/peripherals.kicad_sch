@@ -621,7 +621,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -637,7 +637,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "SK6812MINI"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -646,7 +646,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -656,7 +656,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -675,7 +675,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -684,7 +684,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -693,7 +693,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "SK6812MINI_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -703,7 +703,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "SK6812MINI_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -800,7 +800,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "SK6812MINI_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -811,7 +811,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -829,7 +829,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -847,7 +847,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -865,7 +865,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -2996,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -3005,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -3089,82 +3089,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 195.58 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a8c578e-1e01-4946-85de-bdc56847c2e0")
-		(property "Reference" "D12"
-			(at 207.01 127.0314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 207.01 129.5714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 196.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 198.12 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 195.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "33966538-a7dd-44d5-9a46-6648988b7dab")
-		)
-		(pin "1"
-			(uuid "d6df961a-169b-4e4d-b08a-3a1468569443")
-		)
-		(pin "2"
-			(uuid "873494b1-6216-493e-a62e-2b0ff4f714c3")
-		)
-		(pin "4"
-			(uuid "5de34a15-1627-47ba-bbb5-619ae3efb88f")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3393,7 +3317,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -3402,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -3478,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -3487,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -3676,6 +3600,99 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 195.58 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ded2127-6d86-47f8-8734-deb32cf695fa")
+		(property "Reference" "D13"
+			(at 198.374 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 202.184 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 198.12 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2886570"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SK6812mini"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b5f6b607-f862-4271-bdc3-82f455d905c5")
+		)
+		(pin "2"
+			(uuid "54fb1c9a-8b61-470d-adf5-4d555af9891e")
+		)
+		(pin "1"
+			(uuid "af206345-a5c4-41f8-ab74-f1a20b3ff059")
+		)
+		(pin "4"
+			(uuid "e2d6e639-995e-484a-8832-f780d9183049")
+		)
+		(instances
+			(project ""
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4281,7 +4298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+		(property "Footprint" "FIIT_Kit:TEMT6000X01"
 			(at 238.252 64.516 0)
 			(effects
 				(font
@@ -4300,6 +4317,24 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94098"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TEMT6000X01"
 			(at 226.06 60.96 0)
 			(effects
 				(font
