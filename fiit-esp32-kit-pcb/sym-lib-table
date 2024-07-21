@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FIIT_Kit")(type "KiCad")(uri "${KIPRJMOD}/libraries/FIIT_Kit/FIIT_Kit.kicad_sym")(options "")(descr ""))
+)
