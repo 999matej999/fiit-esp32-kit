@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "FIIT ESP32 Kit")
-		(date "2024-07-17")
+		(date "2024-07-21")
 		(rev "0.1")
-		(company "STU FIIT")
+		(company "FIIT STU")
 		(comment 1 "Ing. Matej Pončák")
 	)
 	(lib_symbols
@@ -2110,7 +2110,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2122,7 +2122,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -2317,6 +2317,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -7.62 0)
@@ -2327,17 +2338,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2446,6 +2446,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 7.62 0)
@@ -2456,17 +2467,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline

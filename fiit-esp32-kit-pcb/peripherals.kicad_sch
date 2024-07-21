@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "FIIT ESP32 Kit")
-		(date "2024-07-17")
+		(date "2024-07-21")
 		(rev "0.1")
-		(company "STU FIIT")
+		(company "FIIT STU")
 		(comment 1 "Ing. Matej Pončák")
 	)
 	(lib_symbols
@@ -310,6 +310,240 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1525,16 +1759,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 58.42 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c2531e-9482-4004-8b12-a1ea3f218feb")
-	)
-	(wire
-		(pts
 			(xy 134.62 52.07) (xy 134.62 60.96)
 		)
 		(stroke
@@ -1555,16 +1779,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 160.02 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c427dc5-1e5d-414a-93b8-3cfe1e3e006a")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 149.86 78.74)
 		)
 		(stroke
@@ -1572,6 +1786,16 @@
 			(type default)
 		)
 		(uuid "20455012-69a1-4d6d-bca7-a28891917023")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 55.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211576bf-3399-49eb-ac39-851e7b8d5b3e")
 	)
 	(wire
 		(pts
@@ -1595,6 +1819,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344dd8df-758f-4cef-9584-2d08b14b7fac")
+	)
+	(wire
+		(pts
 			(xy 78.74 72.39) (xy 78.74 74.93)
 		)
 		(stroke
@@ -1615,13 +1849,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 160.02 52.07)
+			(xy 49.53 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b5cb9e8-e360-49a7-b242-ec463034d764")
+		(uuid "465cf142-10a1-4925-894a-7b958e829252")
 	)
 	(wire
 		(pts
@@ -1655,26 +1889,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 72.39) (xy 58.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583cc0a3-39fe-4754-83c6-45ea5d3f7ee6")
-	)
-	(wire
-		(pts
-			(xy 50.8 52.07) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "593b108c-b835-421e-b8c0-ecca78c73bf5")
-	)
-	(wire
-		(pts
 			(xy 195.58 140.97) (xy 195.58 142.24)
 		)
 		(stroke
@@ -1692,16 +1906,6 @@
 			(type default)
 		)
 		(uuid "5c1fdb54-8582-4b50-9072-8b0386e71889")
-	)
-	(wire
-		(pts
-			(xy 50.8 82.55) (xy 58.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca9546a-52ea-4c55-85d8-015827988627")
 	)
 	(wire
 		(pts
@@ -1805,13 +2009,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 160.02 69.85)
+			(xy 162.56 52.07) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8caf445c-e510-4e09-a63a-db6d89e7aac7")
+		(uuid "8e9852c4-4d03-4068-b49a-1502da632d72")
 	)
 	(wire
 		(pts
@@ -1875,16 +2079,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16f15c5-dd79-49fe-8728-67936cb391ad")
-	)
-	(wire
-		(pts
 			(xy 73.66 62.23) (xy 78.74 62.23)
 		)
 		(stroke
@@ -1892,6 +2086,26 @@
 			(type default)
 		)
 		(uuid "c1c2fbb4-fda0-4f7c-b285-c0c68275d1bb")
+	)
+	(wire
+		(pts
+			(xy 49.53 72.39) (xy 55.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0e4083-888e-4f1c-95eb-d01b4cb87a94")
+	)
+	(wire
+		(pts
+			(xy 162.56 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb22f146-4fa2-4015-a17c-6e02455230ad")
 	)
 	(wire
 		(pts
@@ -1945,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7593ac4-133a-444c-a583-26b1feda7669")
+	)
+	(wire
+		(pts
 			(xy 73.66 72.39) (xy 78.74 72.39)
 		)
 		(stroke
@@ -1983,6 +2207,16 @@
 		)
 		(uuid "eed5fe40-855c-4444-b28e-380046efd139")
 	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bfa144-3e4b-4ae1-9d0e-d45004fc7983")
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 88.9 137.16 180)
@@ -2009,7 +2243,7 @@
 	)
 	(hierarchical_label "LED1"
 		(shape input)
-		(at 50.8 52.07 180)
+		(at 49.53 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2021,7 +2255,7 @@
 	)
 	(hierarchical_label "LED2"
 		(shape input)
-		(at 50.8 62.23 180)
+		(at 49.53 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2033,7 +2267,7 @@
 	)
 	(hierarchical_label "LED3"
 		(shape input)
-		(at 50.8 72.39 180)
+		(at 49.53 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2045,7 +2279,7 @@
 	)
 	(hierarchical_label "BUTTON2"
 		(shape output)
-		(at 160.02 60.96 0)
+		(at 162.56 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2081,7 +2315,7 @@
 	)
 	(hierarchical_label "BUTTON3"
 		(shape output)
-		(at 160.02 69.85 0)
+		(at 162.56 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2093,7 +2327,7 @@
 	)
 	(hierarchical_label "BUTTON4"
 		(shape output)
-		(at 160.02 78.74 0)
+		(at 162.56 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2105,7 +2339,7 @@
 	)
 	(hierarchical_label "LED4"
 		(shape input)
-		(at 50.8 82.55 180)
+		(at 49.53 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2117,7 +2351,7 @@
 	)
 	(hierarchical_label "BUTTON1"
 		(shape output)
-		(at 160.02 52.07 0)
+		(at 162.56 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2258,16 +2492,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 60.96 82.55 90)
-		(unit 1)
+		(lib_id "Device:R_Pack04_Split")
+		(at 59.69 62.23 90)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "264655ae-da6c-4389-af4c-67009420b4f3")
-		(property "Reference" "R27"
-			(at 60.96 80.645 90)
+		(uuid "157df701-0d00-415e-a0c3-8668e15b6acc")
+		(property "Reference" "RN1"
+			(at 59.69 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,15 +2509,15 @@
 			)
 		)
 		(property "Value" "2.4k"
-			(at 60.96 84.455 90)
+			(at 59.69 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 82.55 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 59.69 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 82.55 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,8 +2534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 60.96 82.55 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,8 +2543,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22940"
-			(at 60.96 82.55 0)
+		(property "LCSC" "C425225"
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,8 +2552,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2401T5E"
-			(at 60.96 82.55 0)
+		(property "Manufacturer Part Number" "4D03WGF2401T5E"
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,17 +2561,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8b48abd6-167c-438b-9d51-b3eebcb43267")
+		(pin "8"
+			(uuid "c3390672-1251-4dbb-86b1-479b9bc12c49")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56354")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d16")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182cc")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e3")
 		)
 		(pin "2"
-			(uuid "c7713aca-9b1b-46eb-ba49-e0761eefe03d")
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb34575")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f06312b")
+		)
+		(pin "1"
+			(uuid "f6c9f1dc-d798-44df-b971-6f10e108a044")
 		)
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R27")
-					(unit 1)
+					(reference "RN1")
+					(unit 2)
 				)
 			)
 		)
@@ -2494,6 +2746,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 59.69 72.39 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31b1b360-c3cf-4351-81b9-72888cc7cc94")
+		(property "Reference" "RN1"
+			(at 59.69 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 59.69 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 59.69 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C425225"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4D03WGF2401T5E"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cf7380ca-394e-44a5-80e5-03c6439b4460")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56355")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d17")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182cd")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e4")
+		)
+		(pin "2"
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb34576")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f06312c")
+		)
+		(pin "1"
+			(uuid "6e2adb92-718b-49b9-aa8a-2fddfcd2eb66")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 142.24 69.85 0)
 		(unit 1)
@@ -2518,7 +2873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -2665,91 +3020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "421a335c-6f80-4faf-b907-e91137ee0721")
-		(property "Reference" "R21"
-			(at 152.4 59.055 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 152.4 62.865 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c502ebf5-b2e0-4ca8-950e-b0bebe67dcc8")
-		)
-		(pin "2"
-			(uuid "ded8bd7e-4214-453c-8b58-1a66e4b5f3b8")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 74.93 0)
 		(unit 1)
@@ -2810,6 +3080,109 @@
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "#PWR060")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 153.67 69.85 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61270667-8fd7-4733-bcc1-ad0b4ba4a65e")
+		(property "Reference" "RN2"
+			(at 153.67 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 153.67 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 153.67 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C425240"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4D03WGF1000T5E"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d9bb3370-77e6-428d-9cb8-f2d44cd324be")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56356")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d18")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182ce")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e5")
+		)
+		(pin "2"
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb34577")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f06312d")
+		)
+		(pin "1"
+			(uuid "db45e1d1-dd12-49c6-bee2-2216d8190e2c")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "RN2")
+					(unit 3)
 				)
 			)
 		)
@@ -2945,16 +3318,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 52.07 90)
-		(unit 1)
+		(lib_id "Device:R_Pack04_Split")
+		(at 153.67 60.96 90)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "679d3956-94aa-427c-9ae1-4a5e69b8defa")
-		(property "Reference" "R20"
-			(at 152.4 50.165 90)
+		(uuid "67b21364-27d5-4ccd-b739-0b149aa41455")
+		(property "Reference" "RN2"
+			(at 153.67 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,15 +3335,15 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 152.4 53.975 90)
+			(at 153.67 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 52.07 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 153.67 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 52.07 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 52.07 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,8 +3369,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22775"
-			(at 152.4 52.07 0)
+		(property "LCSC" "C425240"
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,8 +3378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 152.4 52.07 0)
+		(property "Manufacturer Part Number" "4D03WGF1000T5E"
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,17 +3387,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "365b2d8c-a21b-435e-8cf1-26d489eea09a")
+		(pin "8"
+			(uuid "6e4fbe41-3fc1-43ca-9dfc-16adf9775af0")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56357")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d19")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182cf")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e6")
 		)
 		(pin "2"
-			(uuid "5c5dc8c0-c680-4a4a-ab1e-76b6e87ede2b")
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb34578")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f06312e")
+		)
+		(pin "1"
+			(uuid "37576b7f-e759-4ef0-b4db-f19380842136")
 		)
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R20")
-					(unit 1)
+					(reference "RN2")
+					(unit 2)
 				)
 			)
 		)
@@ -3205,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -3260,176 +3651,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77b40a80-ecc6-4bf0-85dc-9892c9faadaf")
-		(property "Reference" "R23"
-			(at 152.4 67.945 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 152.4 71.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4897bef5-641b-4111-96bc-928187c62fe0")
-		)
-		(pin "2"
-			(uuid "bc724c46-60c8-4ecf-862a-76f0d125b892")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82106d5e-316e-4343-95e2-969679a33bef")
-		(property "Reference" "R26"
-			(at 152.4 76.835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 152.4 80.645 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdaf076d-dcac-4270-b8fa-9a5b5705c5ec")
-		)
-		(pin "2"
-			(uuid "25d8ee93-f9ed-432d-831b-af27ef574e6e")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3521,32 +3742,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 60.96 62.23 90)
+		(lib_id "Device:R_Pack04_Split")
+		(at 153.67 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c357e7d-893c-49e0-a3ad-0cf7dfa32434")
-		(property "Reference" "R22"
-			(at 60.96 60.325 90)
+		(uuid "8ad101f0-5199-4435-8702-ea6f773185ac")
+		(property "Reference" "RN2"
+			(at 153.67 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 60.96 64.135 90)
+		(property "Value" "100R"
+			(at 153.67 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 153.67 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 62.23 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,8 +3784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 60.96 62.23 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,8 +3793,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22940"
-			(at 60.96 62.23 0)
+		(property "LCSC" "C425240"
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,8 +3802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2401T5E"
-			(at 60.96 62.23 0)
+		(property "Manufacturer Part Number" "4D03WGF1000T5E"
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,16 +3811,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0045ede4-8a9b-4852-ab77-4feeaf32fc9a")
+		(pin "8"
+			(uuid "038e3246-767b-4c5a-a54e-a23ee6c83b3e")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56358")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d1a")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182d0")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e7")
 		)
 		(pin "2"
-			(uuid "e39b59f0-eea0-4e51-99c4-eb872ed35f58")
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb34579")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f06312f")
+		)
+		(pin "1"
+			(uuid "c4fe4879-2923-42e0-812e-b154328715fa")
 		)
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R22")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -3694,6 +3933,212 @@
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "D13")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 59.69 82.55 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92886590-8768-4685-9d05-83c442f6fab7")
+		(property "Reference" "RN1"
+			(at 59.69 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 59.69 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 59.69 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C425225"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4D03WGF2401T5E"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b87f279d-f737-468a-ba21-f231d31fe961")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c56359")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d1b")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182d1")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e8")
+		)
+		(pin "2"
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb3457a")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f063130")
+		)
+		(pin "1"
+			(uuid "cd12bf8b-2f5b-4e3a-b3c7-253b05d4c5b3")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "RN1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 153.67 78.74 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94ac7ff6-def9-4638-8485-b689572cbc2e")
+		(property "Reference" "RN2"
+			(at 153.67 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 153.67 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 153.67 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C425240"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4D03WGF1000T5E"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2b0d6105-83a5-428d-89e8-57d0957f46bc")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c5635a")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d1c")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182d2")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56e9")
+		)
+		(pin "2"
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb3457b")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f063131")
+		)
+		(pin "1"
+			(uuid "d1739ae4-9691-48e6-9e88-a7c67424db71")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "RN2")
+					(unit 4)
 				)
 			)
 		)
@@ -3851,6 +4296,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 59.69 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae6a0059-7edc-4b03-9943-1eed1692393a")
+		(property "Reference" "RN1"
+			(at 59.69 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 59.69 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 59.69 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C425225"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4D03WGF2401T5E"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "69bcaee5-af9f-4494-bbe1-09880bd94fa3")
+		)
+		(pin "4"
+			(uuid "3023ff89-1717-4670-9516-702b14c5635b")
+		)
+		(pin "5"
+			(uuid "0ba7e931-99d4-431c-80dc-5c7597b83d1d")
+		)
+		(pin "3"
+			(uuid "2d9c2585-0b52-4757-a8ce-7ad5471182d3")
+		)
+		(pin "6"
+			(uuid "0b08eaff-3eaf-4f58-b10a-1d2fc27b56ea")
+		)
+		(pin "2"
+			(uuid "ffc7cff5-51fa-449b-ba07-76240eb3457c")
+		)
+		(pin "7"
+			(uuid "1402c44b-5935-4af8-ba21-16689f063132")
+		)
+		(pin "1"
+			(uuid "46275382-4d2d-4583-adda-df0f930b53c5")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 54.61 0)
 		(unit 1)
@@ -3916,91 +4464,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 60.96 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afadab82-4fc4-4499-8b1a-412a9a745fb1")
-		(property "Reference" "R19"
-			(at 60.96 50.165 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 60.96 53.975 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22940"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF2401T5E"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2db5a951-c9d5-4a8d-aaef-9fdce838e2b7")
-		)
-		(pin "2"
-			(uuid "5b9bfd81-bd52-4c32-83c9-2424d6bbce78")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 142.24 52.07 0)
 		(unit 1)
@@ -4025,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -4110,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4483,91 +4946,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 60.96 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3584941-185c-460f-b4e9-c50306e0fbac")
-		(property "Reference" "R25"
-			(at 60.96 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 60.96 74.295 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22940"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF2401T5E"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf24df8e-01b4-434f-917c-4aa4e6323c09")
-		)
-		(pin "2"
-			(uuid "7964144f-34d3-49d2-b22e-e9be6848d0bb")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R25")
 					(unit 1)
 				)
 			)

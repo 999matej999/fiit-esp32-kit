@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "FIIT ESP32 Kit")
-		(date "2024-07-17")
+		(date "2024-07-21")
 		(rev "0.1")
-		(company "STU FIIT")
+		(company "FIIT STU")
 		(comment 1 "Ing. Matej Pončák")
 	)
 	(lib_symbols
@@ -245,290 +245,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2993,7 +2709,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -3005,7 +2721,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -3160,89 +2876,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -4879,40 +4512,16 @@
 		(uuid "2cfb49f9-e41e-4b54-96bf-49d9bd125eb9")
 	)
 	(junction
-		(at 210.82 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "304ef8a2-34b4-422f-954e-6ac89b652af9")
-	)
-	(junction
 		(at 26.67 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "346eeaf5-531d-46ec-8475-efbf82463d62")
 	)
 	(junction
-		(at 232.41 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3afb8ce8-a775-4b5b-9541-016b9ab2f713")
-	)
-	(junction
 		(at 113.03 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a2f9e7d-a397-4017-a413-c928179f7b58")
-	)
-	(junction
-		(at 210.82 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6720b296-03d8-4a09-8fb8-097b6e138034")
-	)
-	(junction
-		(at 232.41 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6727683d-9a38-4036-91ef-467fc1ceb4ee")
 	)
 	(junction
 		(at 137.16 34.29)
@@ -4969,22 +4578,10 @@
 		(uuid "9849696a-a3cf-40a0-a94d-0eb2cf0e3a0d")
 	)
 	(junction
-		(at 232.41 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b989f11-d1f8-4081-9ce4-850f23af5d04")
-	)
-	(junction
 		(at 133.35 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0544466-750e-4fb4-b244-08238729df76")
-	)
-	(junction
-		(at 210.82 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a158cc94-9552-457c-a66c-6073be8c5c95")
 	)
 	(junction
 		(at 123.19 168.91)
@@ -5021,18 +4618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dadb611c-0d1b-4335-8b0a-1675cffd181c")
-	)
-	(junction
-		(at 232.41 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc9be704-3b5f-4157-9b76-c61057ba064f")
-	)
-	(junction
-		(at 210.82 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0a5d847-5d23-499f-b41a-7c5b98a5713d")
 	)
 	(junction
 		(at 238.76 130.81)
@@ -5148,16 +4733,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 232.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c30e241-f7e1-44fd-8372-fec2a1f60b02")
-	)
-	(wire
-		(pts
 			(xy 17.78 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -5195,16 +4770,6 @@
 			(type default)
 		)
 		(uuid "0e9ef24b-d8f3-4c51-8b47-f00fb6a0c8df")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fdf000f-5f3b-4631-a102-5a19a6a5122f")
 	)
 	(wire
 		(pts
@@ -5258,16 +4823,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 88.9) (xy 210.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12777679-d03d-4248-87a5-5bb3371078ea")
-	)
-	(wire
-		(pts
 			(xy 91.44 60.96) (xy 78.74 60.96)
 		)
 		(stroke
@@ -5308,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 210.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14880b9d-f2cd-4b6c-8719-180cc7837a64")
-	)
-	(wire
-		(pts
 			(xy 144.78 168.91) (xy 147.32 168.91)
 		)
 		(stroke
@@ -5355,16 +4900,6 @@
 			(type default)
 		)
 		(uuid "165f1d58-2af0-4e50-aae3-7a505d770d4e")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 232.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168126e7-6c9c-4c26-bf3a-f83247a956fb")
 	)
 	(wire
 		(pts
@@ -5428,16 +4963,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 210.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216748ed-4f1f-4b32-825c-9f4333554f46")
-	)
-	(wire
-		(pts
 			(xy 237.49 36.83) (xy 254 36.83)
 		)
 		(stroke
@@ -5475,16 +5000,6 @@
 			(type default)
 		)
 		(uuid "26638055-9068-4e12-ba59-8c802ac6a0e1")
-	)
-	(wire
-		(pts
-			(xy 207.01 91.44) (xy 210.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288618a1-a6a4-4726-ae5d-89a85bee73c1")
 	)
 	(wire
 		(pts
@@ -5578,16 +5093,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 88.9) (xy 232.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b20e8e-5b69-4f06-8a85-0d544203fcfc")
-	)
-	(wire
-		(pts
 			(xy 254 113.03) (xy 254 110.49)
 		)
 		(stroke
@@ -5638,16 +5143,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 91.44) (xy 232.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "386fd09d-31e8-457f-9a77-e7d59ba3944a")
-	)
-	(wire
-		(pts
 			(xy 129.54 77.47) (xy 144.78 77.47)
 		)
 		(stroke
@@ -5655,16 +5150,6 @@
 			(type default)
 		)
 		(uuid "39375445-8c90-4561-8957-e6cdb52e740b")
-	)
-	(wire
-		(pts
-			(xy 232.41 99.06) (xy 232.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cad0f52-c41a-404a-8b5f-0059717e4de7")
 	)
 	(wire
 		(pts
@@ -5685,16 +5170,6 @@
 			(type default)
 		)
 		(uuid "3f5626c8-4dda-43bd-9cba-608b448cca8d")
-	)
-	(wire
-		(pts
-			(xy 232.41 88.9) (xy 232.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403fbdd6-432c-4277-b770-93a72c10a250")
 	)
 	(wire
 		(pts
@@ -5745,16 +5220,6 @@
 			(type default)
 		)
 		(uuid "455180cd-9bc4-4cd0-9970-fa835105f345")
-	)
-	(wire
-		(pts
-			(xy 207.01 93.98) (xy 210.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468cbc7d-7a6a-4437-ae8b-747382fa8da2")
 	)
 	(wire
 		(pts
@@ -5988,16 +5453,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 93.98) (xy 232.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6057611f-a0bd-4596-87e7-67215067b41d")
-	)
-	(wire
-		(pts
 			(xy 198.12 43.18) (xy 207.01 43.18)
 		)
 		(stroke
@@ -6118,16 +5573,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 96.52) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d139219-983a-4575-a7dc-c49991439ef2")
-	)
-	(wire
-		(pts
 			(xy 198.12 52.07) (xy 207.01 52.07)
 		)
 		(stroke
@@ -6205,16 +5650,6 @@
 			(type default)
 		)
 		(uuid "737cc85e-6bcf-42b5-a24c-a8a7c99199e2")
-	)
-	(wire
-		(pts
-			(xy 232.41 93.98) (xy 232.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d57a79-cd10-4a1c-87e2-713f8d90af74")
 	)
 	(wire
 		(pts
@@ -6315,16 +5750,6 @@
 			(type default)
 		)
 		(uuid "79d10368-c2ff-4e4b-b9c7-7c7356a169cf")
-	)
-	(wire
-		(pts
-			(xy 232.41 96.52) (xy 232.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6427eb-f4d3-403a-aeef-78925e6be07c")
 	)
 	(wire
 		(pts
@@ -6498,16 +5923,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 210.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907488f1-b282-441e-ada3-cfc36d22e940")
-	)
-	(wire
-		(pts
 			(xy 68.58 21.59) (xy 63.5 21.59)
 		)
 		(stroke
@@ -6555,26 +5970,6 @@
 			(type default)
 		)
 		(uuid "95298214-d6ff-477a-8935-0b5d8e78e294")
-	)
-	(wire
-		(pts
-			(xy 210.82 96.52) (xy 210.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "966a6ef4-fedb-43b9-87e6-80c3750c149a")
-	)
-	(wire
-		(pts
-			(xy 228.6 99.06) (xy 232.41 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c3a101-29bc-4af6-92f1-1c6f6e4f34a4")
 	)
 	(wire
 		(pts
@@ -7345,16 +6740,6 @@
 			(type default)
 		)
 		(uuid "fdf170cf-6627-404d-9ba5-4b9c298f321a")
-	)
-	(wire
-		(pts
-			(xy 210.82 93.98) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7c837a-5c05-4836-9cdd-86dbc1c39452")
 	)
 	(wire
 		(pts
@@ -11042,7 +10427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 40.64 121.92 0)
 			(effects
 				(font
@@ -11298,88 +10683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 222.25 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dec855a-35c5-446d-aa6e-9f8a6e06289d")
-		(property "Reference" "H3"
-			(at 224.79 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 224.79 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 222.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 222.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 222.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 222.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 137.16 24.13 0)
 		(unit 1)
@@ -11439,88 +10742,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 222.25 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "751ff8c9-41c0-4298-82b7-0a2054ca52da")
-		(property "Reference" "H1"
-			(at 224.79 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 224.79 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 222.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 222.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 222.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 222.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12217,71 +11438,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99d432f5-ab6f-47d5-8873-28b437f4a0b5")
-		(property "Reference" "#PWR010"
-			(at 210.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2a0806e-8916-4c9c-bd2d-63bfce8855b3")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12405,88 +11561,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 240.03 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c7631c8-eba4-433a-817b-90dc7c8baad8")
-		(property "Reference" "H2"
-			(at 242.57 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 242.57 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 240.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 240.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 240.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 240.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12617,99 +11691,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 223.52 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5afa45b-77a2-4f2a-956d-fef499f42f45")
-		(property "Reference" "J4"
-			(at 224.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 224.155 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 223.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 223.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 223.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 223.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "f6ffbb71-7994-45c2-a69f-cebf8b4b39df")
-		)
-		(pin "2"
-			(uuid "76be7907-e56c-423e-89d5-cfbbab20e627")
-		)
-		(pin "4"
-			(uuid "2eb8d1da-f48e-4498-a892-5f7f90bb1975")
-		)
-		(pin "1"
-			(uuid "42f81a79-b806-4b72-b5a1-514b804884e5")
-		)
-		(pin "3"
-			(uuid "099817d9-0f10-43e7-9f2e-6daa5187e6e8")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13190,88 +12171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 240.03 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c52252c0-3217-47a4-9fd7-6682ccc4dc31")
-		(property "Reference" "H4"
-			(at 242.57 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 242.57 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 179.07 0)
 		(unit 1)
@@ -13331,71 +12230,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 232.41 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc30270d-1bc1-4454-b9e2-af8bffb8f150")
-		(property "Reference" "#PWR08"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f464524-df91-4221-8b2c-6a78426e18d1")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13480,99 +12314,6 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 201.93 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc7036b5-aaec-43c0-ba3a-358123d73766")
-		(property "Reference" "J3"
-			(at 202.565 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 202.565 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "~"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "bd6af6bb-4089-40e9-a7ab-a917d48c6e66")
-		)
-		(pin "2"
-			(uuid "bce4f2af-9a25-4855-b450-a24ee056388b")
-		)
-		(pin "4"
-			(uuid "cd105463-c64c-451d-84a6-abd5053726b5")
-		)
-		(pin "1"
-			(uuid "06f8020f-37ec-463d-879c-965852f32e70")
-		)
-		(pin "3"
-			(uuid "1458b588-440e-49b3-9d91-358b272d8f01")
-		)
-		(instances
-			(project ""
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14042,7 +12783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2913202"
+		(property "LCSC" "C2913205"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -14051,7 +12792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ESP32-S3-WROOM-1-N16R8"
+		(property "Manufacturer Part Number" "ESP32-S3-WROOM-1-N16R2"
 			(at 63.5 60.96 0)
 			(effects
 				(font
