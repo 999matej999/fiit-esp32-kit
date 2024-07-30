@@ -2494,7 +2494,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 59.69 62.23 90)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2589,7 +2589,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN1")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -2748,7 +2748,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 59.69 72.39 90)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2843,7 +2843,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN1")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -3087,7 +3087,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 153.67 69.85 90)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3182,7 +3182,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN2")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -3320,7 +3320,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 153.67 60.96 90)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3415,7 +3415,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN2")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -3658,7 +3658,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 153.67 52.07 90)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3753,7 +3753,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -3854,7 +3854,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 59.69 82.55 90)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3949,7 +3949,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN1")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -3957,7 +3957,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 153.67 78.74 90)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4052,7 +4052,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN2")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -4212,7 +4212,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 59.69 52.07 90)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4307,7 +4307,7 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
 					(reference "RN1")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
