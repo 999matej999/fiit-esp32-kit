@@ -2435,7 +2435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a074a67-1df7-4fea-b790-bb3576b96ad7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR058"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -2485,7 +2485,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR063")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2603,7 +2603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c2a1c8c-46aa-4897-bdb2-8c4edc2db50e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR060"
 			(at 101.6 151.13 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR068")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2677,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 71.12 69.215 0)
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434431"
+		(property "LCSC" "C2297"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SZYY0805R"
+		(property "Manufacturer Part Number" "KT-0805G"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -2986,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434431"
+		(property "LCSC" "C2295"
 			(at 71.12 52.07 0)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SZYY0805R"
+		(property "Manufacturer Part Number" "KT-0805R"
 			(at 71.12 52.07 0)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4520d228-af56-4c00-a7c8-7327dac519c1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR057"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -3078,7 +3078,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3196,7 +3196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64bb3d14-4b8f-4134-b33d-8c9dca3d2514")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR056"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65cbd9fa-09b9-4b31-a5a7-91c8dda03ef1")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR063"
 			(at 195.58 128.27 0)
 			(effects
 				(font
@@ -3311,7 +3311,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR066")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d58b8d-7b84-4971-bbed-8f1359f9a408")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR065"
 			(at 228.6 58.42 0)
 			(effects
 				(font
@@ -3479,93 +3479,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 71.12 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74788455-ca14-4db8-a007-cc22f9cee9f0")
-		(property "Reference" "D2"
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 71.12 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 71.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C434431"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SZYY0805R"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ca0e146-3fe6-4827-99cf-74f65feaf31d")
-		)
-		(pin "2"
-			(uuid "a850b152-28dd-4283-bbea-04be52964123")
-		)
-		(instances
-			(project "fiit-esp32-kit-pcb"
-				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "D2")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ded2127-6d86-47f8-8734-deb32cf695fa")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 198.374 124.968 0)
 			(effects
 				(font
@@ -3931,7 +3845,7 @@
 		(instances
 			(project ""
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f8ff4d-0e01-4c48-8513-77cd8eef7875")
-		(property "Reference" "R24"
+		(property "Reference" "R19"
 			(at 229.87 69.85 0)
 			(effects
 				(font
@@ -4224,7 +4138,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "R24")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9e9acae-3e8b-46c8-a2ae-6c82862369b5")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 228.6 81.28 0)
 			(effects
 				(font
@@ -4289,7 +4203,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4407,7 +4321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aea83f9a-2c7d-41c3-8069-918d65f0e6ac")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -4457,7 +4371,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR057")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1af6271-45c9-41ca-b490-b7d15abdb467")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR059"
 			(at 101.6 120.65 0)
 			(effects
 				(font
@@ -4880,7 +4794,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR064")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4895,7 +4809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ccf1f8-6465-4e00-9675-b1af3e5132df")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR064"
 			(at 195.58 148.59 0)
 			(effects
 				(font
@@ -4945,7 +4859,93 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR067")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee8d1612-2ed9-4ba4-bed8-22befd1c6859")
+		(property "Reference" "D2"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YELLOW"
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2296"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0805Y"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e020d3-ca94-465a-aa05-b90898d9483a")
+		)
+		(pin "2"
+			(uuid "dedfc00e-ad0e-4383-a730-c9d3f1f09bb3")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4960,7 +4960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7f658ec-997a-43aa-bca9-b40fadef1ad4")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR061"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/fe4defb8-cb63-4770-8d91-1c7f8da70e07"
-					(reference "#PWR065")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5034,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "BLUE"
 			(at 71.12 79.375 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434431"
+		(property "LCSC" "C2293"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SZYY0805R"
+		(property "Manufacturer Part Number" "KT-0805B"
 			(at 71.12 82.55 0)
 			(effects
 				(font

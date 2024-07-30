@@ -341,7 +341,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -353,7 +353,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2134,7 +2134,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2146,7 +2146,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -2446,17 +2446,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 7.62 0)
@@ -2467,6 +2456,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4983,7 +4983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0578197b-7a87-4df0-8ac6-e0fb2dd29ab4")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 222.25 49.53 0)
 			(effects
 				(font
@@ -5055,7 +5055,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c9ef6e-c83f-4dee-8fe2-70a645fd3101")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 161.29 62.23 90)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "084cf55c-60c4-4953-a182-0d092cfdc991")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR034"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -5289,7 +5289,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR048")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5389,7 +5389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1747dcda-02be-4b57-bb0c-84269bc3552e")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 46.99 120.65 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5519,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18178360-e3c1-44dd-9bfe-a59a9eff4e0c")
-		(property "Reference" "R17"
+		(property "Reference" "R10"
 			(at 63.5 132.08 90)
 			(effects
 				(font
@@ -5591,7 +5591,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R17")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5606,7 +5606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d1a9574-1152-4284-ae5f-0873f82559fb")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 109.855 62.23 0)
 			(effects
 				(font
@@ -5678,7 +5678,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5693,7 +5693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "234b0dc4-4b5f-48a9-bbc5-58f2578043ae")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR035"
 			(at 46.99 175.26 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR055")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ef8568e-39a0-4c10-9752-802856463415")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 245.745 43.18 0)
 			(effects
 				(font
@@ -5929,7 +5929,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36826728-5f74-49f5-9276-e3104781bb9c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR040"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR049")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6094,7 +6094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "464516d1-37e7-45dd-9087-3729dd810714")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR032"
 			(at 39.37 105.41 0)
 			(effects
 				(font
@@ -6144,7 +6144,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR047")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47ab9022-57c5-43e8-bb0d-4278eb00dd5a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 107.95 72.39 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6224,7 +6224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aa6514f-334c-44ca-ba0c-6f1f71e35be3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR050"
 			(at 234.95 41.91 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR034")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6289,7 +6289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c0ef5fc-3de6-451d-b7de-72aa59d41212")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54c649a3-46c0-4bf1-af15-73892a2be186")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "570263da-24f7-4477-b264-ff28eba9021c")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 237.49 125.73 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6484,7 +6484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cbf54a7-c64f-4369-b11b-7a734977a4af")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c75e30-b946-4231-8f37-8a39a2b6f664")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 77.47 72.39 0)
 			(effects
 				(font
@@ -6599,7 +6599,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6614,7 +6614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cc9ce19-edba-4778-a5ad-b2ec1f8b96e3")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 262.89 87.63 90)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6701,7 +6701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74bf1e85-b4b6-478e-8a40-6b37b3303fd1")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 80.01 123.825 0)
 			(effects
 				(font
@@ -6751,7 +6751,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6766,7 +6766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "777e5223-beec-4d6c-a575-43634fd498f6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR053"
 			(at 254 53.34 0)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR037")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6831,7 +6831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c347a51-29db-444e-b952-a63de1b26408")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 63.5 62.23 90)
 			(effects
 				(font
@@ -6903,7 +6903,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6918,7 +6918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee628f7-a72c-4dfa-b845-aafd27d508b1")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 118.11 56.515 0)
 			(effects
 				(font
@@ -6968,7 +6968,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7067,7 +7067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96560739-6981-491a-86f5-80a085526347")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 161.29 77.47 90)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98b4e77f-f37e-48aa-9166-5be0f78f08b4")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 120.015 62.23 0)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e187a8e-5967-4aae-ba04-348b4a3dc379")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 257.81 81.28 0)
 			(effects
 				(font
@@ -7309,7 +7309,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7324,7 +7324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a17c162a-4ba7-4a5d-9b78-833bc7f62e76")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 63.5 134.62 90)
 			(effects
 				(font
@@ -7396,7 +7396,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1baf23d-6a3e-449b-bd8a-55a48953b0da")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 78.74 74.93 0)
 			(effects
 				(font
@@ -7487,7 +7487,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7502,7 +7502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a87869e0-ebc9-4d80-96a6-b1020500d388")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 211.455 72.39 0)
 			(effects
 				(font
@@ -7574,7 +7574,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7589,7 +7589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aca0fe46-802f-4c9d-b71b-a6290a4a983f")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 195.58 64.77 90)
 			(effects
 				(font
@@ -7659,7 +7659,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7674,7 +7674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adc5d7f1-330d-44af-9119-701bbcd89988")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR054"
 			(at 278.13 86.36 0)
 			(effects
 				(font
@@ -7724,7 +7724,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR046")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afc30f61-1380-4fae-8e15-c74eeb3ce6a1")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 209.55 85.09 0)
 			(effects
 				(font
@@ -7789,7 +7789,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afd5b2e0-dd24-4291-bc49-c9913583ec99")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -7854,7 +7854,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7869,7 +7869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bad056f4-8e4f-4391-a8fe-498a5736c085")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR033"
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -7919,7 +7919,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR054")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7934,7 +7934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfea10c0-3628-431d-bdfb-ae638657ee79")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR039"
 			(at 77.47 142.24 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR053")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7999,7 +7999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c36aaac3-60e6-4cc3-96c6-5d3558df84e2")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 262.89 85.09 90)
 			(effects
 				(font
@@ -8071,7 +8071,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8087,7 +8087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46692d6-6a92-4b9a-84a0-0ceeb1e8abad")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8217,7 +8217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5906746-c7b5-4d99-8c84-a92ae069003a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR041"
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR056")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8517,7 +8517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb0db6fb-eda5-44e5-9602-986e9c318686")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -8587,7 +8587,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8602,7 +8602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc851c85-9006-4ca6-9107-8610cf690a1a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR044"
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -8652,7 +8652,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR052")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8667,7 +8667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b3530a-8c85-49ab-8266-74d16c3c3105")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR052"
 			(at 243.84 53.34 0)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR036")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8732,7 +8732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2f07a76-aaa8-4f10-9141-72498dde14e5")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 255.905 43.18 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8819,7 +8819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d87b1235-837a-44ed-b827-7fb9274292ec")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR049"
 			(at 220.98 50.8 0)
 			(effects
 				(font
@@ -8869,7 +8869,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR035")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8884,7 +8884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c3c358-1520-4268-ab0f-eaec6036b616")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 63.5 64.77 90)
 			(effects
 				(font
@@ -8956,7 +8956,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8972,7 +8972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f9433f-1d8e-4b11-9653-8816edd999b2")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 90.17 54.61 0)
 			(effects
 				(font
@@ -9042,7 +9042,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2363638-431b-4c70-a5d9-3d30fbcfe947")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -9127,7 +9127,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9142,7 +9142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb1503ac-e33b-49ed-8b2b-1ccd75c53b55")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9207,7 +9207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f38a38e9-c0fc-4c64-b6fb-8e3444d5f698")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR037"
 			(at 69.85 129.54 0)
 			(effects
 				(font
@@ -9257,7 +9257,7 @@
 		(instances
 			(project ""
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "#PWR051")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9272,7 +9272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f58edca6-d9c7-4781-b441-b8b7a729ec03")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 257.81 91.821 0)
 			(effects
 				(font
@@ -9342,7 +9342,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9357,7 +9357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa77e5d8-3c2c-4edf-8356-e9ea6fdbc535")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -9433,7 +9433,7 @@
 		(instances
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9/7a988d19-92b6-49d4-ae77-db839e758892"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
