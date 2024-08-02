@@ -12,6 +12,249 @@
 		(comment 1 "Ing. Matej Pončák")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2466,7 +2709,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -2478,19 +2721,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2503,6 +2734,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4195,6 +4438,12 @@
 		(uuid "346eeaf5-531d-46ec-8475-efbf82463d62")
 	)
 	(junction
+		(at 266.7 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4279e94a-fad6-4c27-b358-b340f50f5030")
+	)
+	(junction
 		(at 113.03 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4295,6 +4544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dadb611c-0d1b-4335-8b0a-1675cffd181c")
+	)
+	(junction
+		(at 264.16 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e34f4537-2b6d-4ea5-a1b9-e9bb71b6ac24")
 	)
 	(junction
 		(at 238.76 130.81)
@@ -4710,6 +4965,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 113.03) (xy 271.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7dbb33-f964-414f-933b-1508b6f7bcf8")
+	)
+	(wire
+		(pts
 			(xy 17.78 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -5010,6 +5275,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 138.43) (xy 266.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505e29f0-e45e-4c9c-815f-3798310b7f3f")
+	)
+	(wire
+		(pts
 			(xy 246.38 110.49) (xy 246.38 109.22)
 		)
 		(stroke
@@ -5077,6 +5352,16 @@
 			(type default)
 		)
 		(uuid "56bca9fa-966b-4c46-b045-d878b03253d2")
+	)
+	(wire
+		(pts
+			(xy 271.78 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae4efac-e32f-4b86-a2c4-134d75f3f7c5")
 	)
 	(wire
 		(pts
@@ -5180,7 +5465,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 133.35) (xy 267.97 133.35)
+			(xy 254 133.35) (xy 271.78 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5247,6 +5532,16 @@
 			(type default)
 		)
 		(uuid "714e0f8c-32fd-4348-9bc8-2aa469279b3f")
+	)
+	(wire
+		(pts
+			(xy 264.16 118.11) (xy 264.16 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7201ed68-9bd5-4f94-b706-1ccbbd08a385")
 	)
 	(wire
 		(pts
@@ -5560,7 +5855,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 130.81) (xy 267.97 130.81)
+			(xy 238.76 130.81) (xy 271.78 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5790,6 +6085,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 135.89) (xy 271.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0843f4-d6df-4b99-b8f1-7d53f9063939")
+	)
+	(wire
+		(pts
 			(xy 187.96 59.69) (xy 172.72 59.69)
 		)
 		(stroke
@@ -5837,6 +6142,16 @@
 			(type default)
 		)
 		(uuid "b83db202-0d5e-447c-a95e-863235bb3bd3")
+	)
+	(wire
+		(pts
+			(xy 264.16 105.41) (xy 264.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b914954a-ff01-419a-a545-90f2ac708721")
 	)
 	(wire
 		(pts
@@ -5920,6 +6235,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 138.43) (xy 266.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3576877-149e-4e93-9228-fa58a7f8074d")
+	)
+	(wire
+		(pts
 			(xy 123.19 168.91) (xy 123.19 171.45)
 		)
 		(stroke
@@ -5990,6 +6315,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 120.65) (xy 266.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a5459e-3344-480a-a510-8072fdb1a2fd")
+	)
+	(wire
+		(pts
 			(xy 17.78 43.18) (xy 48.26 43.18)
 		)
 		(stroke
@@ -6007,6 +6342,16 @@
 			(type default)
 		)
 		(uuid "d36d1c7a-3331-42c6-bc06-010e73b45f0c")
+	)
+	(wire
+		(pts
+			(xy 265.43 115.57) (xy 271.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c42a37-1caa-4a21-a562-55bf8a508062")
 	)
 	(wire
 		(pts
@@ -6107,6 +6452,16 @@
 			(type default)
 		)
 		(uuid "dc5dbb2f-d82f-4607-8943-fc0ef71bd239")
+	)
+	(wire
+		(pts
+			(xy 264.16 118.11) (xy 271.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4b3f5a-b890-4546-8d2f-d9b346183002")
 	)
 	(wire
 		(pts
@@ -6454,6 +6809,17 @@
 		)
 		(uuid "0d0fa711-f194-4ef8-b8c3-33477b847a23")
 	)
+	(label "LED4"
+		(at 17.78 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ddc8ae6-8a9d-4d5c-b03a-c3408bfe0c79")
+	)
 	(label "GPIO39"
 		(at 91.44 66.04 180)
 		(fields_autoplaced yes)
@@ -6585,6 +6951,17 @@
 			(justify left bottom)
 		)
 		(uuid "33bc7ada-27b8-4646-811e-c81dfb00cb09")
+	)
+	(label "LED3"
+		(at 17.78 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "344081df-b122-4870-b546-65f38eb8165a")
 	)
 	(label "GPIO6"
 		(at 129.54 67.31 0)
@@ -6839,17 +7216,6 @@
 		)
 		(uuid "64994b18-c8b3-4cf9-9bbf-e11bdd7737d2")
 	)
-	(label "SCL"
-		(at 267.97 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65f0427d-411d-4c0d-b49c-a667ab004c0e")
-	)
 	(label "GPIO8"
 		(at 35.56 63.5 0)
 		(fields_autoplaced yes)
@@ -6971,6 +7337,17 @@
 		)
 		(uuid "74223feb-4c2f-4abc-a6f9-3c793f530413")
 	)
+	(label "LED2"
+		(at 17.78 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74b543c9-eed3-413f-894d-a96d2f652ad9")
+	)
 	(label "BUTTON4"
 		(at 237.49 57.15 0)
 		(fields_autoplaced yes)
@@ -7025,17 +7402,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e44aa53-e31d-45fd-b0d3-7ee56fa52f32")
-	)
-	(label "LED1"
-		(at 17.78 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f3219c1-2200-4d7a-bd99-a84c4e202079")
 	)
 	(label "GPIO46"
 		(at 187.96 36.83 180)
@@ -7169,6 +7535,17 @@
 		)
 		(uuid "a1d9d291-bd11-4e6e-a054-44407029d255")
 	)
+	(label "LED1"
+		(at 17.78 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a70641-50de-4943-8b02-ff8826943ad4")
+	)
 	(label "GPIO38"
 		(at 91.44 63.5 180)
 		(fields_autoplaced yes)
@@ -7179,6 +7556,17 @@
 			(justify right bottom)
 		)
 		(uuid "a4bcbb6f-c7d8-4d0b-82d5-bad37c6213f0")
+	)
+	(label "SDA"
+		(at 265.43 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c6e38f-056c-4158-be72-4dc1858ad7fd")
 	)
 	(label "GPIO12"
 		(at 35.56 73.66 0)
@@ -7356,8 +7744,8 @@
 		)
 		(uuid "bb93a755-1cdc-4e26-a6a9-e87e15296415")
 	)
-	(label "LED2"
-		(at 17.78 55.88 0)
+	(label "SCL"
+		(at 265.43 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7365,7 +7753,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bc491094-b7f6-4228-8104-98adfd3869ab")
+		(uuid "bf2231c3-d5cd-4969-bb62-1d2034906153")
 	)
 	(label "GPIO45"
 		(at 91.44 76.2 180)
@@ -7388,17 +7776,6 @@
 			(justify left bottom)
 		)
 		(uuid "bfe61f5b-aaee-44ff-94de-78fb24129fa2")
-	)
-	(label "SDA"
-		(at 267.97 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5a03797-c5a7-443c-9dd4-3ed6ac7cf9dc")
 	)
 	(label "SCL"
 		(at 214.63 130.81 0)
@@ -7576,17 +7953,6 @@
 		)
 		(uuid "e0322c50-5d6a-47e6-a859-58d96e454c92")
 	)
-	(label "LED4"
-		(at 17.78 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e26a3e5c-692b-45ee-b5c0-5773a1a1a1be")
-	)
 	(label "MTDI"
 		(at 134.62 132.08 180)
 		(fields_autoplaced yes)
@@ -7674,17 +8040,6 @@
 			(justify left bottom)
 		)
 		(uuid "eb2dde4d-2da9-4c78-8a77-acb27686a887")
-	)
-	(label "LED3"
-		(at 17.78 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0cae3a7-c28c-42d5-8f08-db32dea43d11")
 	)
 	(label "RX0"
 		(at 91.44 40.64 180)
@@ -7876,6 +8231,71 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 264.16 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f04143-3784-4c74-9057-2eb556a2343d")
+		(property "Reference" "#PWR028"
+			(at 264.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 264.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f384d9-1b5a-4ad8-b251-6b46d03cb389")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8350,6 +8770,97 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 276.86 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fcc8195-c830-4e68-845c-b43f06ab5c37")
+		(property "Reference" "J8"
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QWIIC - I2C"
+			(at 274.32 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 276.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 276.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 276.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM04B-SRSS-TB(LF)(SN)"
+			(at 276.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97ef9146-7271-4cf0-afa2-94b2eb1c975c")
+		)
+		(pin "4"
+			(uuid "6f6ef8be-2d90-4844-bf34-d5f45ea01cd6")
+		)
+		(pin "1"
+			(uuid "9d180c94-eac2-43af-aa3c-dbbf31527ba2")
+		)
+		(pin "2"
+			(uuid "e4f1e2a8-8523-4a52-923e-61ab4273ec96")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9271,6 +9782,71 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bfcec64-5a3e-4255-ad80-e7a6464ed97a")
+		(property "Reference" "#PWR029"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d35bbd4-a5c5-4fab-a963-34931084e0bf")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11746,6 +12322,97 @@
 			(project "fiit-esp32-kit-pcb"
 				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 276.86 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb82286-faea-4cb0-b784-bb6eef144380")
+		(property "Reference" "J7"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QWIIC - I2C"
+			(at 274.32 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM04B-SRSS-TB(LF)(SN)"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20d4688d-71a1-4337-9903-0c3bb212d807")
+		)
+		(pin "4"
+			(uuid "87eb4535-dcb3-4033-9aea-da482586046c")
+		)
+		(pin "1"
+			(uuid "842a8e81-6e0b-41b2-85b1-8b0cbc8d1a63")
+		)
+		(pin "2"
+			(uuid "d82761e7-d52c-4bd0-8fba-56cd07de41ed")
+		)
+		(instances
+			(project "fiit-esp32-kit-pcb"
+				(path "/d7013812-ce13-4db9-a6cc-42acdc5acaf9"
+					(reference "J7")
 					(unit 1)
 				)
 			)
