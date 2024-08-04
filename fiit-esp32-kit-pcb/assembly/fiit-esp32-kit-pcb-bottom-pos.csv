@@ -1,7 +1,0 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"J1","Conn_01x22_Pin","PinHeader_1x22_P2.54mm_Vertical",196.270000,-58.310000,180.000000,bottom
-"J2","Conn_01x22_Pin","PinHeader_1x22_P2.54mm_Vertical",219.130000,-58.310000,180.000000,bottom
-"J3","Conn_ARM_JTAG_SWD_10","PinHeader_2x05_P1.27mm_Vertical_SMD",203.890000,-75.836000,90.000000,bottom
-"J4","Conn_01x06_Pin","PinHeader_2x03_P1.27mm_Vertical_SMD",211.764000,-75.836000,90.000000,bottom
-"J7","QWIIC - I2C","JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",200.588000,-52.596400,90.000000,bottom
-"J8","QWIIC - I2C","JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",214.812000,-52.595000,-90.000000,bottom
