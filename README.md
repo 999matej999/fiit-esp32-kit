@@ -15,3 +15,8 @@ For uploading code use USB UART by default.
 GPIOX represents the pin marking, where X is the pin number that needs to be used in the Arduino IDE.
 
 Please consider proper electrical connection to prevent electrical shortcuts.
+
+## Arduino IDE
+First of all ensure you have Arduino IDE and [ESP32 boards](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/) properly installed.
+Select board: ESP32S3 Dev Module
+For basic examples use default configuration.
